@@ -6,7 +6,6 @@
   },
   "rewrites": [
     { "source": "/", "destination": "/api/index.php" },
-    { "source": "/meta_handler", "destination": "/api/meta_handler.php" },
-    { "source": "/(.*)\\.(png|jpg|jpeg|svg)", "destination": "/api/$1.$2" }
+    { "source": "/meta_handler", "destination": "/api/meta_handler.php" }
   ]
 }
